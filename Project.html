@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A-TUBE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="icon" href="A-TUBE.png" />
+  <link rel="stylesheet" href="Project.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <i id="menu-btn" class="material-symbols-outlined">menu</i>
+      <img src="A-TUBE.png" alt="Logo" />
+      <h2>A-TUBE</h2>
+    </div>
+
+    <div class="header-search">
+      <form action="#">
+        <input type="text" placeholder="Search" />
+        <button type="submit">
+          <i class="material-symbols-outlined">search</i>
+        </button>
+      </form>
+      <div class="search-mic">
+        <i class="material-symbols-outlined">mic</i>
+      </div>
+    </div>
+
+    <div class="header-icons">
+      <i class="material-symbols-outlined">video_call</i>
+      <i class="material-symbols-outlined">notifications</i>
+      <i class="material-symbols-outlined">account_circle</i>
+    </div>
+  </header>
+
+  <!-- Main Body -->
+  <div class="mainBody">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <div class="sidebar-category active"><i class="material-symbols-outlined">home</i><span>Home</span></div>
+        <div class="sidebar-category"><i class="material-symbols-outlined">explore</i><span>Explore</span></div>
+        <div class="sidebar-category"><i class="material-symbols-outlined">subscriptions</i><span>Subscriptions</span></div>
+      </div>
+
+      <hr />
+
+      <div class="sidebar-section">
+        <h4>Library</h4>
+        <div class="sidebar-category"><i class="material-symbols-outlined">video_library</i><span>Library</span></div>
+        <div class="sidebar-category"><i class="material-symbols-outlined">history</i><span>History</span></div>
+        <div class="sidebar-category"><i class="material-symbols-outlined">watch_later</i><span>Watch later</span></div>
+        <div class="sidebar-category"><i class="material-symbols-outlined">thumb_up</i><span>Liked videos</span></div>
+        <div class="sidebar-category"><i class="material-symbols-outlined">download</i><span>Downloads</span></div>
+      </div>
+
+      <hr />
+
+      <div class="sidebar-section">
+        <h4>Explore</h4>
+        <div class="sidebar-category"><i class="material-symbols-outlined">music_note</i><span>Music</span></div>
+        <div class="sidebar-category"><i class="material-symbols-outlined">sports_esports</i><span>Gaming</span></div>
+        <div class="sidebar-category"><i class="material-symbols-outlined">theaters</i><span>Movies</span></div>
+        <div class="sidebar-category"><i class="material-symbols-outlined">feed</i><span>News</span></div>
+        <div class="sidebar-category"><i class="material-symbols-outlined">emoji_objects</i><span>Learning</span></div>
+      </div>
+    </aside>
+
+    <!-- Video Feed -->
+    <section class="videos">
+      <!-- Filter bar -->
+      <div class="recommend">
+        <span>All</span>
+        <span>Music</span>
+        <span>Gaming</span>
+        <span>Movies</span>
+        <span>JavaScript</span>
+        <span>Live</span>
+        <span>Podcasts</span>
+        <span>Python</span>
+        <span>Technology</span>
+        <span>News</span>
+      </div>
+
+      <!-- Video Cards -->
+      <div class="video-container">
+        <!-- Repeat these blocks for multiple videos -->
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="https://i.ytimg.com/vi/tgbNymZ7vqY/maxresdefault.jpg" alt="Video" />
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="https://yt3.ggpht.com/ytc/AKedOLRvguP7LPa7Dx2kEvJEX5D29E5G5gU=s88-c-k-c0x00ffffff-no-rj" alt="Channel" />
+            </div>
+            <div class="title">
+              <h3>Relaxing Jazz Music – Background Cafe Music</h3>
+              <a href="#">Smooth Jazz Beats</a>
+              <span>12M views • 2 weeks ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="https://i.ytimg.com/vi/6Dh-RL__uN4/maxresdefault.jpg" alt="Video" />
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="https://yt3.ggpht.com/ytc/AKedOLRSHhZ2HRPwohrYyz8xYzT7vYAbM3Y=s88-c-k-c0x00ffffff-no-rj" alt="Channel" />
+            </div>
+            <div class="title">
+              <h3>JavaScript Crash Course – Full Tutorial</h3>
+              <a href="#">FreeCodeCamp</a>
+              <span>5.2M views • 1 month ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Video" />
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="https://yt3.ggpht.com/ytc/AKedOLR2yVQXH6T2P1VHeNgiO_B5XP4sLqA=s88-c-k-c0x00ffffff-no-rj" alt="Channel" />
+            </div>
+            <div class="title">
+              <h3>Top 10 Anime Fights of All Time</h3>
+              <a href="#">Anime Zone</a>
+              <span>3.8M views • 5 days ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="https://i.ytimg.com/vi/E7wJTI-1dvQ/maxresdefault.jpg" alt="Video" />
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="https://yt3.ggpht.com/ytc/AKedOLRvnJYjeV8z6S2sGx0HdcZ8FgK8Tcw=s88-c-k-c0x00ffffff-no-rj" alt="Channel" />
+            </div>
+            <div class="title">
+              <h3>Python for Beginners – Full Course</h3>
+              <a href="#">Programming Hub</a>
+              <span>7.5M views • 3 months ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="https://i.ytimg.com/vi/xvFZjo5PgG0/maxresdefault.jpg" alt="Video" />
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="https://yt3.ggpht.com/ytc/AKedOLSd_7ZzAI3kE9PbWB4QVN9rN_JYgA=s88-c-k-c0x00ffffff-no-rj" alt="Channel" />
+            </div>
+            <div class="title">
+              <h3>Top 10 Web Development Trends 2025</h3>
+              <a href="#">Tech Insider</a>
+              <span>1.2M views • 6 days ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- JS for mobile sidebar toggle -->
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const sidebar = document.querySelector(".sidebar");
+
+    menuBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("show-sidebar");
+    });
+  </script>
+</body>
+</html>
